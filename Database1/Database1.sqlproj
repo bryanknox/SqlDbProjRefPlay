@@ -63,4 +63,12 @@
   <ItemGroup>
     <Build Include="dbo\Tables\dbo.StreetAddress.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Database1.State\Database1.State.sqlproj">
+      <Name>Database1.State</Name>
+      <Project>{c8611f18-effa-45e8-a1e8-057b6b16b72b}</Project>
+      <Private>True</Private>
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
